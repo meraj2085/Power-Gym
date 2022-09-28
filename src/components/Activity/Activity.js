@@ -26,6 +26,18 @@ const Activity = () => {
                <p>Age</p>
           </div>
         </div>
+        <div>
+          <p className="break-header">Add a break</p>
+          <div className="break-minutes">
+               <p>1m</p>
+               <p>2m</p>
+               <p>3m</p>
+               <p>4m</p>
+          </div>
+        </div>
+        <div>
+          
+        </div>
       </div>
       {/* <p className='activity-header'>Exercise Details</p> */}
     </div>

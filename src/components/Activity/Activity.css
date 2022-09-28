@@ -1,5 +1,6 @@
 .activity-container {
   position: sticky;
+  padding-top: 20px;
   top: 0;
 }
 .activity-container img{
@@ -9,7 +10,7 @@
 }
 .profile-container{
      display: flex;
-     margin: 10px 0 0 10px;
+     margin: 10px 0 0 15px;
 }
 .name{
      font-size: 22px;
@@ -43,6 +44,29 @@
      font-weight: 400;
      color: black;
 }
+
+.break-header{
+     margin-left: 20px;
+     font-size: 22px;
+     font-weight: 500;
+}
+.break-minutes{
+     display: flex;
+     justify-content: space-between;
+     margin: 17px;
+     background-color: white;
+     padding: 2px 8px;
+     border-radius: 10px;
+}
+.break-minutes p{
+     background-color: blue;
+     color: white;
+     padding: 10px;
+     border-radius: 25px;
+}
+
+
+
 /* .activity-header {
   font-family: "Lato";
   font-style: normal;
