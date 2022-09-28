@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import profile from "../../IMG_7151.jpg";
 import "./Activity.css";
 const Activity = ({activity}) => {
 
+  const [breakTime, setBreakTime] = useState(0)
+
+  const handleBreak = (time) =>{
+    setBreakTime(time)
+  }
   return (
     <div className="activity-container">
       <div>
@@ -30,11 +35,11 @@ const Activity = ({activity}) => {
         <div>
           <p className="break-header">Add a break</p>
           <div className="break-minutes">
-               <p>1m</p>
-               <p>2m</p>
-               <p>3m</p>
-               <p>4m</p>
-               <p>5m</p>
+               <p onClick={()=>handleBreak(1)}>1m</p>
+               <p onClick={()=>handleBreak(2)}>2m</p>
+               <p onClick={()=>handleBreak(3)}>3m</p>
+               <p onClick={()=>handleBreak(4)}>4m</p>
+               <p onClick={()=>handleBreak(5)}>5m</p>
           </div>
         </div>
         <div>
@@ -45,7 +50,7 @@ const Activity = ({activity}) => {
           </div>
           <div className="break-time">
                <p>Break time</p>
-               <p>5 minutes</p>
+               <p>{breakTime} minutes</p>
           </div>
         </div>
         <div className="completed-btn">
