@@ -1,0 +1,10 @@
+.exercise-title{
+     font-size: 27px;
+     font-weight: 500;
+}
+.exercise-card-container{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 50px;
+     margin: 30px 50px 50px 70px ;
+}
