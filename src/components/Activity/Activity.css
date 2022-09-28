@@ -45,7 +45,7 @@
      color: black;
 }
 
-.break-header{
+.break-header, .exercise-header{
      margin-left: 20px;
      font-size: 22px;
      font-weight: 500;
@@ -59,23 +59,24 @@
      border-radius: 10px;
 }
 .break-minutes p{
-     background-color: blue;
+     background-color: rgb(61, 61, 255);
      color: white;
      padding: 10px;
      border-radius: 25px;
 }
-
-
-
-/* .activity-header {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 30px;
-  color: #1c2b35;
-  display: flex;
-  justify-content: center;
-  padding-top: 20px;
-  font-weight: 500;
-} */
+.exercise-time, .break-time{
+     display: flex;
+     justify-content: space-between;
+     margin: 17px;
+     background-color: white;
+     padding: 2px 8px;
+     border-radius: 10px;
+}
+.completed-btn{
+     display: flex;
+     justify-content: center;
+     background-color: rgb(61, 61, 255);
+     color: white;
+     margin: 25px 17px;
+     border-radius: 12px;
+}

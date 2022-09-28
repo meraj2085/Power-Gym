@@ -18,7 +18,7 @@ const Activity = () => {
                <p>Weight</p>
           </div>
           <div>
-               <p className="data">5.8</p>
+               <p className="data">5.9<span>ft</span></p>
                <p>Height</p>
           </div>
           <div>
@@ -33,13 +33,24 @@ const Activity = () => {
                <p>2m</p>
                <p>3m</p>
                <p>4m</p>
+               <p>5m</p>
           </div>
         </div>
         <div>
-          
+          <p className="exercise-header">Exercise Details</p>
+          <div className="exercise-time">
+               <p>Exercise time</p>
+               <p>200 minutes</p>
+          </div>
+          <div className="break-time">
+               <p>Break time</p>
+               <p>5 minutes</p>
+          </div>
+        </div>
+        <div className="completed-btn">
+          <p>Activity Completed</p>
         </div>
       </div>
-      {/* <p className='activity-header'>Exercise Details</p> */}
     </div>
   );
 };
