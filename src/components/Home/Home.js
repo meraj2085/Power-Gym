@@ -14,7 +14,9 @@ const Home = () => {
           <div>
                <div className='home-container'>
                     <Exercises exercises={exercises}></Exercises>
-                    <Activity></Activity>
+                    <div className='activity-container'>
+                         <Activity></Activity>
+                    </div>
                </div>
           </div>
      );

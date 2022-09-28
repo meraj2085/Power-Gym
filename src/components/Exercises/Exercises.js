@@ -5,7 +5,7 @@ const Exercises = ({exercises}) => {
      console.log(exercises)
      return (
           <div>
-               <p className='exercise-title'>Select today's exercise</p>
+               <p className='exercise-title'><span>|</span> Select today's exercise</p>
                <div className='exercise-card-container'>
                     {exercises.map(exercise => <ExerciseCard key={exercise.id} exercise={exercise}></ExerciseCard>)}
                </div>
