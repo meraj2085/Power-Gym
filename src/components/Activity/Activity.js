@@ -1,7 +1,8 @@
 import React from "react";
 import profile from "../../IMG_7151.jpg";
 import "./Activity.css";
-const Activity = () => {
+const Activity = ({activity}) => {
+
   return (
     <div className="activity-container">
       <div>
@@ -40,7 +41,7 @@ const Activity = () => {
           <p className="exercise-header">Exercise Details</p>
           <div className="exercise-time">
                <p>Exercise time</p>
-               <p>200 minutes</p>
+               <p>{activity} minutes</p>
           </div>
           <div className="break-time">
                <p>Break time</p>

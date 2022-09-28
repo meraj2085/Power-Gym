@@ -5,17 +5,21 @@ import Activity from '../Activity/Activity';
 
 const Home = () => {
      const [exercises, setExercises] = useState([]);
+     const [activity, setActivity] = useState(0)
+
      useEffect(()=>{
           fetch('data.json')
           .then(res => res.json())
           .then(data => setExercises(data))
      },[])
+
+
      return (
           <div>
                <div className='home-container'>
-                    <Exercises exercises={exercises}></Exercises>
+                    <Exercises exercises={exercises} activity={activity} setActivity={setActivity}></Exercises>
                     <div className='activity-container-main'>
-                         <Activity></Activity>
+                         <Activity activity={activity}></Activity>
                     </div>
                </div>
           </div>

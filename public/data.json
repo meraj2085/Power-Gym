@@ -3,36 +3,36 @@
        "id": "63345ed9b634c7b2f50b115f",
        "image": "https://i.ibb.co/GM1jFMx/gym-1.jpg",
        "name": "Weight lifting",
-       "timeRequired": "30"
+       "timeRequired": 30
      },
      {
        "id": "63345ed9a1fd8787f391dda5",
        "image": "https://i.ibb.co/qkG7p3K/gum-2.jpg",
        "name": "Back lift",
-       "timeRequired": "40"
+       "timeRequired": 15
      },
      {
        "id": "63345ed9e67195ce60416d8c",
        "image": "https://i.ibb.co/9YZW4X9/gym-3.jpg",
        "name": "Dumble",
-       "timeRequired": "20"
+       "timeRequired": 20
      },
      {
        "id": "63345ed9a3d2c2c7d2f6b338",
        "image": "https://i.ibb.co/Hr5dQ6B/gym-4.jpg",
        "name": "Battle rope",
-       "timeRequired": "10"
+       "timeRequired": 10
      },
      {
        "id": "63345ed96a15c7bdb34eca61",
        "image": "https://i.ibb.co/8NqMm3g/gym-5.jpg",
        "name": "Running",
-       "timeRequired": "20"
+       "timeRequired": 20
      },
      {
        "id": "63345ed9ae80e5ed7a5cdc46",
        "image": "https://i.ibb.co/TMxdQq5/gym-6.jpg",
        "name": "Dead lifting",
-       "timeRequired": "30"
+       "timeRequired": 30
      }
    ]

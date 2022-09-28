@@ -1,8 +1,12 @@
 import React from 'react';
 import './ExerciseCard.css'
 
-const ExerciseCard = ({exercise}) => {
+const ExerciseCard = ({exercise, activity, setActivity}) => {
      const {id, image, name, timeRequired} = exercise;
+
+     const handleExerciseTime = () =>{
+          setActivity(activity + timeRequired)
+     }
      return (
           <div>
                <div className='exercise-card'>
@@ -11,7 +15,7 @@ const ExerciseCard = ({exercise}) => {
                     <h6>{name}</h6>
                     <p>Time required : {timeRequired}m</p>
                </div>
-               <div className='exercise-btn-container'>
+               <div onClick={handleExerciseTime} className='exercise-btn-container'>
                     <button className='exercise-btn'>Add to list</button>
                </div>
                </div>
