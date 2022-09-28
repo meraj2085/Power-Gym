@@ -11,9 +11,9 @@ const ExerciseCard = ({exercise}) => {
                     <h6>{name}</h6>
                     <p>Time required : {timeRequired}m</p>
                </div>
-               <button className='exercise-btn-container'>
-                    <p className='exercise-btn'>Add to list</p>
-               </button>
+               <div className='exercise-btn-container'>
+                    <button className='exercise-btn'>Add to list</button>
+               </div>
                </div>
           </div>
      );
