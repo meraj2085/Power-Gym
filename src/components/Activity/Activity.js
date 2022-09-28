@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import profile from "../../IMG_7151.jpg";
 import "./Activity.css";
-const Activity = ({activity}) => {
+import { ToastContainer, toast } from 'react-toastify';
 
+
+const Activity = ({activity}) => {
+  const notify = () => toast.success("Congratulations! You did it");
   const [breakTime, setBreakTime] = useState(0)
 
   const handleBreak = (time) =>{
@@ -53,9 +56,10 @@ const Activity = ({activity}) => {
                <p>{breakTime} minutes</p>
           </div>
         </div>
-        <div className="completed-btn">
+        <div onClick={notify} className="completed-btn">
           <p>Activity Completed</p>
         </div>
+        <ToastContainer />
       </div>
     </div>
   );
