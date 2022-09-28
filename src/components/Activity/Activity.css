@@ -1,16 +1,57 @@
-.activity-container{
-     position: sticky;
-     top: 0;
+.activity-container {
+  position: sticky;
+  top: 0;
 }
-.activity-header{
-     font-family: 'Lato';
-     font-style: normal;
-     font-weight: 400;
-     font-size: 25px;
-     line-height: 30px;
-     color: #1C2B35;
+.activity-container img{
+     width: 60px;
+     height: 60px;
+     border-radius: 30px;
+}
+.profile-container{
      display: flex;
-     justify-content: center;
-     padding-top: 20px;
+     margin: 10px 0 0 10px;
+}
+.name{
+     font-size: 22px;
+     margin: 5px 0 0 10px;
      font-weight: 500;
 }
+.location{
+     margin-top: 0;
+     margin-left: 10px;
+}
+
+.health-details{
+     display: flex;
+     justify-content: space-between;
+     margin: 17px;
+     background-color: white;
+     padding: 8px;
+     border-radius: 10px;
+}
+.health-details p{
+     margin: 0;
+     text-align: center;
+}
+.data{
+     font-size: 20px;
+     font-weight: 600;
+     color: blueviolet;
+}
+.health-details span{
+     font-size: 17px;
+     font-weight: 400;
+     color: black;
+}
+/* .activity-header {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #1c2b35;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-weight: 500;
+} */

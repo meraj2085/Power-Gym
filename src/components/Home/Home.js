@@ -14,7 +14,7 @@ const Home = () => {
           <div>
                <div className='home-container'>
                     <Exercises exercises={exercises}></Exercises>
-                    <div className='activity-container'>
+                    <div className='activity-container-main'>
                          <Activity></Activity>
                     </div>
                </div>

@@ -2,7 +2,7 @@
      display: grid;
      grid-template-columns: 3fr 2fr;
 }
-.activity-container{
+.activity-container-main{
      background-color: aliceblue;
      margin-right: 50px;
      border-radius: 8px;
