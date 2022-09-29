@@ -31,12 +31,12 @@ const Blogs = () => {
               <p>
                 React divides the UI into reusable pieces of code known as
                 components. React components works similarly as JavaScript
-                functions as they accept arbitrary inputs called properties or
-                props. React creates a virtual dom and uses diff algorithm to
-                get the difference and only change the specific dom node. We can
-                write like HTML, its called JSX. There is a compiler named
-                babble, it can convert the latest version of JavaScript code
-                into the one that the browser understands
+                functions as they accept inputs called properties or props.
+                React creates a virtual dom and uses diff algorithm to get the
+                difference and only change the specific dom node. We can write
+                like HTML, its called JSX. There is a compiler named babble, it
+                can convert the latest version of JavaScript code into the one
+                that the browser understands
               </p>
             </div>
           </div>
@@ -98,7 +98,12 @@ const Blogs = () => {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              <p>useEffect hook is used form many purposes. These are State management, Conditional rendering, Toggle flags (true/false) and store it in state</p>
+              <p>
+                useEffect hook is used form many purposes. These are State
+                management, Conditional rendering, add an event listener,
+                directly update the DOM,Toggle flags (true/false) and store it
+                in state.
+              </p>
             </div>
           </div>
         </div>
