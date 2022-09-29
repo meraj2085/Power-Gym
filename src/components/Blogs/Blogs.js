@@ -4,7 +4,7 @@ import "./Blogs.css";
 const Blogs = () => {
   return (
     <div className="blogs-container">
-      <h1 classNameName="blogs-title">
+      <h1 className="blogs-title">
         <span style={{ color: "blueviolet" }}>B</span>logs
       </h1>
       <div className="accordion container my-5" id="accordionExample">
@@ -28,7 +28,16 @@ const Blogs = () => {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              <p>hlw world 3</p>
+              <p>
+                React divides the UI into reusable pieces of code known as
+                components. React components works similarly as JavaScript
+                functions as they accept arbitrary inputs called properties or
+                props. React creates a virtual dom and uses diff algorithm to
+                get the difference and only change the specific dom node. We can
+                write like HTML, its called JSX. There is a compiler named
+                babble, it can convert the latest version of JavaScript code
+                into the one that the browser understands
+              </p>
             </div>
           </div>
         </div>
@@ -52,7 +61,20 @@ const Blogs = () => {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              <p>hlw world 3</p>
+              <p>
+                Props are arguments you pass to React components. They are
+                passed through HTML templates and are a method to pass data from
+                one component to another. Props can be compared to functional
+                arguments. They are passed to the component in the same manner
+                arguments are passed in a function. Props are read only they can
+                never be changed. A state is an updatable structure containing
+                information or data about a dynamic component, where the
+                information can change over time. Anytime the data inside these
+                components are changed, State re-renders the app to reflect
+                these changes. Generally, these changes in data happen due to
+                user-triggered events on the front end. A state can be accessed
+                or modified only on the inside or directly by a component
+              </p>
             </div>
           </div>
         </div>
@@ -76,7 +98,7 @@ const Blogs = () => {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              <p>hlw world 3</p>
+              <p>useEffect hook is used form many purposes. These are State management, Conditional rendering, Toggle flags (true/false) and store it in state</p>
             </div>
           </div>
         </div>

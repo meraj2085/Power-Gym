@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import profile from "../../IMG_7151.jpg";
 import "./Activity.css";
 import { ToastContainer, toast } from 'react-toastify';
@@ -10,7 +10,17 @@ const Activity = ({activity}) => {
 
   const handleBreak = (time) =>{
     setBreakTime(time)
+    localStorage.setItem('BreakTime', time)
   }
+
+
+  useEffect(()=>{
+    const storedCart = localStorage.getItem("BreakTime");
+    if (storedCart) {
+      setBreakTime(storedCart);
+    }
+  },[])
+
   return (
     <div className="activity-container">
       <div>
