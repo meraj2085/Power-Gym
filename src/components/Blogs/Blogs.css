@@ -1,16 +1,3 @@
-.blogs-title{
+.blogs-container > h1{
      text-align: center;
-}
-.question{
-     font-size: 25px;
-     font-weight: 500;
-}
-.questions-container div{
-     background-color: rgb(173, 210, 243);
-     padding: 10px 20px;
-     margin: 15px;
-     border-radius: 10px;
-}
-.questions-container{
-     margin-bottom: 50px;
 }
