@@ -101,7 +101,7 @@ const Blogs = () => {
               <p>
                 useEffect hook is used form many purposes. These are State
                 management, Conditional rendering, add an event listener,
-                directly update the DOM,Toggle flags (true/false) and store it
+                directly update the DOM,Toggle flags and store it
                 in state.
               </p>
             </div>
