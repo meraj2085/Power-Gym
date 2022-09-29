@@ -55,22 +55,29 @@
      justify-content: space-between;
      margin: 17px;
      background-color: white;
-     padding: 2px 8px;
+     padding: 10px 8px;
      border-radius: 10px;
 }
 .break-minutes p{
      background-color: rgb(61, 61, 255);
      color: white;
-     padding: 10px;
      border-radius: 25px;
+     margin: 0;
+     padding: 10px;
 }
 .exercise-time, .break-time{
      display: flex;
      justify-content: space-between;
      margin: 17px;
      background-color: white;
-     padding: 2px 8px;
+     padding: 15px 10px;
      border-radius: 10px;
+}
+.exercise-time p{
+     margin: 0;
+}
+.break-time p{
+     margin: 0;
 }
 .completed-btn{
      display: flex;
@@ -79,4 +86,8 @@
      color: white;
      margin: 20px 17px;
      border-radius: 12px;
+}
+.completed-btn p{
+     margin-bottom: 0;
+     margin: 13px 0;
 }

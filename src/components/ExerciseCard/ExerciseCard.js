@@ -9,19 +9,9 @@ const ExerciseCard = ({ exercise, activity, setActivity }) => {
   };
   return (
     <div>
-      {/* <div className='exercise-card'>
-               <img src={image} alt="" />
-               <div className='exercise-details'>
-                    <h6>{name}</h6>
-                    <p>Time required : {timeRequired}m</p>
-               </div>
-               <div onClick={handleExerciseTime} className='exercise-btn-container'>
-                    <button className='exercise-btn'>Add to list</button>
-               </div>
-               </div> */}
-      <div class="card" style={{ minWidth: "18rem" }}>
+      <div className="card" style={{ minWidth: "18rem" }}>
         <img src={image} className="card-img-top" alt="" />
-        <div class="card-body">
+        <div className="card-body">
           <div className="exercise-details">
             <h6>{name}</h6>
             <p>Time required : {timeRequired}m</p>

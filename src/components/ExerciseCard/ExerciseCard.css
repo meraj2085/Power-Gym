@@ -1,13 +1,4 @@
-.exercise-card{
-     border: 1px solid #95A0A7;
-     border-radius: 8px;
-}
-.exercise-card img {
-  width: 300px;
-  /* height: 200px; */
-  border-radius: 10px;
-  margin: 15px;
-}
+
 .exercise-details h6{
   font-family: "Lato";
   font-style: normal;
@@ -28,7 +19,4 @@
      padding: 7px 70px;
      font-size: 20px;
      border-radius: 5px;
-}
-.exercise-details{
-     padding: 15px;
 }
