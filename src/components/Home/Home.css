@@ -8,3 +8,15 @@
      border-radius: 8px;
      padding-bottom: 20px;
 }
+
+@media only screen and (max-width: 768px){
+     .home-container{
+          /* display: flex;
+          flex-direction: column; */
+          grid-template-columns: repeat(1, 1fr);
+     }
+     .activity-container-main{
+          /* margin-left: 0; */
+          margin: 25px;
+     }
+}
